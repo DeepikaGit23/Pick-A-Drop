@@ -7,17 +7,27 @@ body{
   background-image: url("C:\Users\Deepika\Desktop\Pick-A-Drop\PickADrop\src\assets\Pick1.gif");
   background-repeat: no-repeat;
   background-size:cover;
-
-}
-li{
-  list-style: none;
-  margin: 18px 12px;
-}
-nav{
-  background-color: darkblue;
-}
-a{
-  color: aliceblue;
-
 }
 
+
+#toast-container > div {
+  opacity: 1;
+}
+.toast {
+  margin: 50px;
+  font-size: initial !important;
+  border: initial !important;
+  backdrop-filter: blur(0) !important;
+}
+.toast-success {
+  background-color: #51A351 !important;
+}
+.toast-error {
+  background-color: #BD362F !important;
+}
+.toast-info {
+  background-color: #2F96B4 !important;
+}
+.toast-warning {
+  background-color: #F89406 !important;
+}
